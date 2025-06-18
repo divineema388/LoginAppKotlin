@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fb Chat App</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="register_button_text">Register</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="login_screen_title">Welcome Back!</string>
+    <string name="register_screen_title">Join Us!</string>
+    <string name="login_success_message">Login Successful!</string>
+    <string name="registration_success_message">Registration Successful!</string>
+    <string name="login_failed_message">Login Failed</string>
+    <string name="registration_failed_message">Registration Failed</string>
+</resources>
