@@ -1,22 +1,16 @@
 buildscript {
-    repositories {
-        google()       // Explicitly re-add google() here for buildscript dependencies
-        mavenCentral() // Explicitly re-add mavenCentral() here for buildscript dependencies
-    }
+    // REMOVE any 'repositories { ... }' block from here if it exists.
+    // The repositories for classpath dependencies are now resolved via pluginManagement in settings.gradle.
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.2.0' // KEEP this version
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0' // KEEP this version
-        classpath 'com.google.gms:google-services:4.4.1' // KEEP this version
+        classpath 'com.android.tools.build:gradle:8.2.0' // Keep this version
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0' // Keep this version
+        classpath 'com.google.gms:google-services:4.4.1' // Keep this version
     }
 }
 
 allprojects {
-    repositories {
-        // These repositories are typically covered by dependencyResolutionManagement in settings.gradle
-        // but if issues persist, you might temporarily uncomment these (less ideal)
-        google()
-        mavenCentral()
-    }
+    // REMOVE any 'repositories { ... }' block from here if it exists.
+    // The repositories for module dependencies are now resolved via dependencyResolutionManagement in settings.gradle.
 }
 
 task clean(type: Delete) {
