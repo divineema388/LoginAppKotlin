@@ -1,14 +1,14 @@
 pluginManagement {
     repositories {
-        google() // Essential for Android Gradle Plugin and Google Services Plugin
+        google()
         mavenCentral()
         gradlePluginPortal()
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS) // This line enforces the rule
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google() // Essential for Firebase and other Android dependencies
+        google()
         mavenCentral()
     }
 }
