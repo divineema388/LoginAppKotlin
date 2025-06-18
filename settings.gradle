@@ -1,6 +1,6 @@
 pluginManagement {
     repositories {
-        google() // Ensure this is at the top
+        google() // This must be here and ideally at the top
         mavenCentral()
         gradlePluginPortal()
     }
